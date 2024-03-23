@@ -1,0 +1,4 @@
+Client has a method doSomething which only accepts an object of existing service.
+
+Using the new service is not possible directly in the client, so we wrap it using newserviceadapter which extends existingservice.
+This ends up calling newservice as newservice is a field in the adapter.

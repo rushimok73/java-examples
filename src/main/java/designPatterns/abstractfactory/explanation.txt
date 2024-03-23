@@ -1,0 +1,5 @@
+Why is this good?
+1. Adding a new style of furniture is easy
+    - Add a new AbstractFactory implementation
+    - This wont change the driver code at all, except abstractfactory initialisation
+
