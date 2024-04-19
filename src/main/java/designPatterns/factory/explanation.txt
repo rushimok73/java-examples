@@ -1,0 +1,3 @@
+This removed the object creation burden from the client
+Client now has access to objects based on number of wheels. We can swap implementations in the back without
+affecting the client.
